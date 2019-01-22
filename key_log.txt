@@ -1,0 +1,11 @@
+2019-01-22 08:02:14,851: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "C:\djp\Keylogger\Keylogger\pynput\_util\__init__.py", line 157, in inner
+    return f(self, *args, **kwargs)
+  File "C:\djp\Keylogger\Keylogger\pynput\keyboard\_win32.py", line 240, in _process
+    self.on_press(key)
+  File "C:\djp\Keylogger\Keylogger\pynput\_util\__init__.py", line 78, in inner
+    if f(*args) is False:
+  File "keylogger2.py", line 16, in on_press
+    while key != key.space:
+AttributeError: 'KeyCode' object has no attribute 'space'
